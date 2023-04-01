@@ -1,3 +1,12 @@
+/*
+Theme Name: Bikcraft
+Theme URI: https://bikcraft.com
+Author: Larissa Reis
+Description: Tema desenvolvido no curso da Origamid de WebDev e aplicado ao Wordpress como CMS
+Version: 1.0
+*/
+
+
 @import 'css/reset.css';
 @import 'css/contato.css';
 @import 'css/grid.css';
