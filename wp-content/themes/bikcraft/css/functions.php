@@ -17,4 +17,11 @@
 
     //Habilitar suporter a menu:
     add_theme_support('menu');
+
+    //Função para as imagens terem tamanhos customizaveis:
+    function my_custom_sizes(){
+        add_image_size('large', 1400, 380, true );
+        add_image_size('medium', 768, 380, true );
+    }
+    add_action('after_setup_theme', 'my_custom_sizes')
 ?>
