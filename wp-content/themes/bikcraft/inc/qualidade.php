@@ -1,7 +1,7 @@
-<?php $contato = get_page_by_title('sobre');	?>
+<?php $sobre = get_page_by_title('sobre');	?>
 <section class="qualidade container"> 
 	<h2 class="subtitulo"><?php	the_field('titulo_principal', $sobre );	?></h2>
-	<img src="<?php	the_field('logo_bikcraft');	?>" alt="Bikcraft">
+	<img src="<?php	the_field('logo_bikcraft', $sobre );	?>" alt="Bikcraft">
 	<ul class="qualidade_lista">
 		<li class="grid-1-3">
 			<h3><?php the_field('titulo_1', $sobre );   ?></h3>
