@@ -16,7 +16,7 @@
 		</li>
 	</ul>
 	<div class="call">
-		<p>conheça mais a nossa história</p>
+		<p><?php the_field('call_sobre_texto');    ?></p>
 		<a href="/bikcraft/sobre/" class="btn btn-preto">Sobre</a>
 	</div>
 </section>
