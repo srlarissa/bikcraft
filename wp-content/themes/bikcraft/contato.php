@@ -1,6 +1,7 @@
 <?php	
 	//Template Name: Contato
 	get_header();	
+	if ( have_posts() ) : while ( have_posts() ) : the_post();
 ?>
 
 
@@ -50,4 +51,9 @@
 			<a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
 		</section>
 
-	<?php	get_footer();	?>
+
+	<?php	endwhile; else: endif;	?>
+
+<?php
+	get_footer();	
+?>

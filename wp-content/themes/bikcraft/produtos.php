@@ -1,6 +1,7 @@
 <?php	
 	//Template Name: Produtos
-	get_header();	
+	get_header();
+	if ( have_posts() ) : while ( have_posts() ) : the_post();	
 ?>
 
 
@@ -103,4 +104,9 @@
 			</div>
 		</section>
 
-		<?php	get_footer();	?>
+	<?php	endwhile; else: endif;	?>
+
+<?php
+	get_footer();	
+?>
+

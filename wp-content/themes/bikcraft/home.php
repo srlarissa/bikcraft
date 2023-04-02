@@ -2,6 +2,7 @@
 <?php	
 	//Template Name: Home
 	get_header();	
+	if ( have_posts() ) : while ( have_posts() ) : the_post();
 ?>
 		<section class="introducao">
 			<div class="container">
@@ -90,8 +91,12 @@
 			</div>
 		</section>
 	
-	<?php	get_footer();	?>
 
+	<?php	endwhile; else: endif;	?>
+
+	<?php
+		get_footer();	
+	?>
 	
 
 	

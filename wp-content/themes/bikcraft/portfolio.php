@@ -1,6 +1,7 @@
 <?php	
 	//Template Name: Portfolio
 	get_header();	
+	if ( have_posts() ) : while ( have_posts() ) : the_post();
 ?>
 
 		<section class="introducao-interna interna_portfolio">
@@ -55,4 +56,8 @@
 			</div>
 		</section>
 
-		<?php	get_footer();	?>
+	<?php	endwhile; else: endif;	?>
+
+<?php
+	get_footer();	
+?>
