@@ -6,12 +6,12 @@
 ?>
 		<section class="introducao">
 			<div class="container">
-				<h1>Bicicletas Feitas a Mão</h1>
+				<h1><?php the_field('intro_title');	?></h1>
 				<blockquote class="quote-externo">
-					<p>“não tenha nada em sua casa que você não considere útil ou acredita ser bonito”</p>
-					<cite>WILLIAM MORRIS</cite>
+					<p><?php	the_field('quote_intro');	?></p>
+					<cite><?php	the_field('quote_author_intro');	?></cite>
 				</blockquote>
-				<a href="produtos.html" class="btn">Orçamento</a>
+				<a href="/bikcraft/produtos/" class="btn">Orçamento</a>
 			</div>
 		</section>
 		
