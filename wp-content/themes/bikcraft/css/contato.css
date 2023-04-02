@@ -43,6 +43,7 @@
 
 .contato_form button {
 	padding: 7px 40px;
+	margin-bottom: 36px;
 	background: none;
 }
 
@@ -88,6 +89,6 @@
 	border-color: #000;
 }
 
-.contato_mapa {
+.contato_mapa a {
 	margin-bottom: 60px;
 }
