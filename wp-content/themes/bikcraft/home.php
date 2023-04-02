@@ -4,16 +4,7 @@
 	get_header();	
 	if ( have_posts() ) : while ( have_posts() ) : the_post();
 ?>
-		<section class="introducao">
-			<div class="container">
-				<h1>Bicicletas Feitas a Mão</h1>
-				<blockquote class="quote-externo">
-					<p>“não tenha nada em sua casa que você não considere útil ou acredita ser bonito”</p>
-					<cite>WILLIAM MORRIS</cite>
-				</blockquote>
-				<a href="produtos.html" class="btn">Orçamento</a>
-			</div>
-		</section>
+	<?php	include(TEMPLATEPATH . "/inc/introducao.php");	?>
 		
 		<section class="produtos container animar">
 			<h2 class="subtitulo">Produtos</h2>
