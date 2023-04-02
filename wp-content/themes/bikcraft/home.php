@@ -87,7 +87,7 @@
 			</ul>
 			<div class="call">
 				<p>conheça mais a nossa história</p>
-				<a href="#" class="btn btn-preto">Sobre</a>
+				<a href="/bikcraft/sobre/" class="btn btn-preto">Sobre</a>
 			</div>
 		</section>
 	
