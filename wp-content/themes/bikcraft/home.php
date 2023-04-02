@@ -46,8 +46,8 @@
 			</ul>
 
 			<div class="call">
-				<p>clique aqui e veja os detalhes dos produtos</p>
-				<a href="produtos.html" class="btn btn-preto">Produtos</a>
+				<p><?php	the_field('chamada_produtos');	?></p>
+				<a href="/bikcraft/produtos/" class="btn btn-preto">Produtos</a>
 			</div>
 
 		</section>
@@ -62,8 +62,8 @@
 					<div class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></div>
 				</div>
 				<div class="call">
-					<p>conheça mais o nosso portfólio</p>
-					<a href="portfolio.html" class="btn">Portfólio</a>
+					<p><?php	the_field('chamada_portfolio');	?></p>
+					<a href="/bikcraft/portfolio/" class="btn">Portfólio</a>
 				</div>
 			</div>
 		</section>
