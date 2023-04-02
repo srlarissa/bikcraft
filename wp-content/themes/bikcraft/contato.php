@@ -1,4 +1,7 @@
-<?php	get_header();	?>
+<?php	
+	//Template Name: Contato
+	get_header();	
+?>
 
 
 		<section class="introducao-interna interna_contato">
@@ -47,4 +50,4 @@
 			<a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
 		</section>
 
-		<?php	get_footer();	?>
+	<?php	get_footer();	?>
