@@ -1,6 +1,8 @@
 //Funções para limpar o header
 
 <?php
+
+    //Resets:
     remove_action('wp_head', 'rsd_link');
     remove_action('wp_head', 'wlwmanifest_link');
     remove_action('wp_head', 'start_post_rel_link', 10, 0 );
@@ -12,4 +14,7 @@
     remove_action('admin_print_scripts', 'print_emoji_detection_script');
     remove_action('wp_print_styles', 'print_emoji_styles');
     remove_action('admin_print_scripts', 'print_emoji_styles');
+
+    //Habilitar suporter a menu:
+    add_theme_support('menu');
 ?>
